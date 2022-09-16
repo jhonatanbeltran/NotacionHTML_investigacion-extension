@@ -346,6 +346,228 @@
             <img src="img/V26-N1-3/img9.png" height="400px" width="auto">
         </div>
 
+        <p>
+            Each experimental sample consists of connecting a test CPE device to the corresponding access point in the places already strategically defined with
+            the established distances; Once the connection has been made, the download of the file hosted on the server is started, the time measurement is taken 
+            from the start of the download until it ends. Each measurement is taken from the average of five repetitions looking for greater reliability in the 
+            data obtained. The measurement of the total download time of the file and its size were taken as a reference for the throughput measurement; using 
+            equation (3) to obtain the desired parameter value.
+        </p>
+
+        <div class="image">
+            <img src="img/V26-N1-3/img10.png" height="150px" width="auto">
+        </div>
+        
+        <p>
+            The factors and levels considered in the development of the experiment are presented in Table IV:
+        </p>
+
+
+        <div class="image">
+            <img src="img/V26-N1-3/img11.png" height="150px" width="auto">
+        </div>
+
+        <p>
+            In relation to the data presented in the previous table, a mixed factorial design of 2 x 3 x 3 = 18 combinations of treatments or experimental samples 
+            is chosen. The number of replications of the experiment is five (5), which represents a total of 18 x 5 = 90 measurements for each output or response 
+            variable, data sufficiently reliable to obtain results of the effects of each main factor and each of its interactions.
+        </p>
+
+        <hr>
+
+        <p class="titulo">Results</p>
+
+        <p>
+            With the data collection obtained previously, the choice of a statistical mathematical technique that allows to infer reliably on the behavior of a 
+            WISP network will continue. For this purpose the analysis of variance (ANOVA) will be taken as a tool. In the present investigation, more than one 
+            particular factor is studied and the influence that one may have with each other, taking into account this type of conditions it is necessary to 
+            perform a factorial design <a href="#r14">[14]</a>. In general, factorial designs are the most efficient for this type of experiments. By factorial design it is 
+            understood that in each test or complete replica of the experiment, all possible combinations of the factor levels are investigated. The effect of a 
+            factor is defined as the change in response produced by a change in factor level.
+        </p>
+
+        <p class="titulo">Design matrix product of sampling campaigns</p>
+
+        <p>
+            Tables V and VI show the design matrix for Throughput and download delay respectively, according to the results obtained during the development of 
+            the experiment.
+        </p>
+
+        <div class="image">
+            <img src="img/V26-N1-3/img12.png" height="580px" width="auto">
+        </div>
+
+        <p>Statistical Model and Analysis of Variance for Throughput</p>
+
+        <p>
+            This model is represented by a factorial design of three (3) ABC factors that models the behavior of a response or output variable Y that can be 
+            expressed by: <a href="#r3">[3]</a>
+        </p>
+
+
+        <div class="image">
+            <img src="img/V26-N1-3/img13.png" height="100px" width="auto">
+        </div>
+
+        <p>
+            A = operating frequency<br> 
+            B = distance<br> 
+            C = Number CPE<br> 
+            N = Number of replicas of the experiment
+            Yijkl = Throughput for operating frequency i at a distance between CPE and AP j, with a number of stations(k), for replication l.<br>
+            μ= General mean without interaction effects<br>
+            Ai= effect of the i - th level of factor A<br>
+            Bj= effect of the i - th level of factor B<br>
+            Ck= effect of the i - th level of factor C<br>
+            (AB)ij= Effect of the interaction between the factors Frequency and distance<br>
+            (AC)ik= Effect of the interaction between the factors frequency and amount of CPE<br>
+            (BC)jk= Effect of the interaction between the factors distance and amount of CPE<br>
+            (ABC)ijk= Effect of the interaction of the three factors<br>
+            εijkl= Random error<br>
+        </p>
+
+        <p>
+            The factorial study of three factors (A, B, C) allows to investigate the effects: A, B, C, AB, AC, BC and ABC; where the level of breakdown or 
+            detail with which they can be studied depends on the number of levels used in each factor. For the particular case, there are seven interesting 
+            effects without considering breakdown and with them seven null hypotheses (H_o) can be raised and each one paired with an alternative hypothesis 
+            (HA). The ANOVA to test each of these hypotheses is illustrated in table XI.
+        </p>
+
+        <div class="image">
+            <img src="img/V26-N1-3/img14.png" height="230px" width="auto">
+        </div>
+
+        <p>
+            For cases in which all the factors of the experiment are fixed, it is possible to easily formulate and test hypotheses about the main effects 
+            and interactions. In the case of fixed effect models, the tests to test the hypotheses about each main effect and the interactions can be 
+            constructed by dividing the corresponding CM of the effect or the interaction by  the  CME. The degrees of freedom for each main effect are the 
+            levels of the factor minus one and the number of degrees of freedom for an interaction is the product of the number of degrees of freedom associated 
+            with the individual components of it: <a href="#r15">[15]</a>
+        </p>
+
+        <p>
+            Experimentation procedure:<br>
+            Dependent variable: THROUGHPUT<br>
+            Factors: <br>
+            (A) Operating frequency<br>
+            (B) Distance<br>
+            (C) Amount of CPE<br>
+        </p>
+
+        <p>
+            Number of experimental samples: 90<br>
+            Next, the respective variance analysis calculations for Troughput will be carried out, extracting the data reported in Table V. The mathematical equation to determine the correlation factor (FC) is:
+        </p>
+
+        <div class="image">
+            <img src="img/V26-N1-3/img16.png" height="150px" width="auto">
+        </div>
+
+        <p>The following expression will be used to calculate the sum of squares (SC):</p>
+
+        <div class="image">
+            <img src="img/V26-N1-3/img17.png" height="650px" width="auto">
+        </div>
+
+        <div class="image">
+            <img src="img/V26-N1-3/img18.png" height="350px" width="auto">
+        </div>
+
+        <div class="image">
+            <img src="img/V26-N1-3/img19.png" height="370px" width="auto">
+        </div>
+
+        <div class="image">
+            <img src="img/V26-N1-3/img20.png" height="300px" width="auto">
+        </div>
+
+        <div class="image">
+            <img src="img/V26-N1-3/img21.png" height="280px" width="auto">
+        </div>
+
+        <p>The SCE is determined by the following expression:</p>
+
+        <div class="image">
+            <img src="img/V26-N1-3/img22.png" height="150px" width="auto">
+        </div>
+
+        <p>The following table is illustrated in analysis of variance for Throuhgput:</p>
+
+        <div class="image">
+            <img src="img/V26-N1-3/img23.png" height="260px" width="auto">
+        </div>
+
+        <p>
+            For the effect whose p-value is less than the value specified for α, it is declared statistically significant or said to be active. That is, 
+            those values where p-value <0.05.
+        </p>
+
+        <p>
+            The ANOVA table breaks down the variability of THROUGHPUT in contributions due to several factors. Since the sum of Type III squares (default) 
+            has been chosen, the contribution of each factor has been measured by eliminating the effects of the rest of the factors. The p-values verify 
+            the statistical importance of each of the factors. Given that according to the analysis of variance there are three effects with p-values lower 
+            than 0.05 (A, C and AC), these factors have a statistically significant effect on THROUGHPUT for a 95.0% confidence for which the H_o hypothesis 
+            is rejected.
+        </p>
+
+        <p>
+            On the other hand, the effects that do not influence the model statistically (B, AB, BC and ABC) could be considered eliminating them by sending 
+            their effects on the model at the end of the error (ε). It is very important to keep in mind that the only statistically significant interaction 
+            between the factors was that corresponding to the AC interaction, which corresponds to the interaction between the frequency factors and number 
+            of CPEs or stations in the network, which is consistent with the mathematical expressions to calculate the value of the Throughput presented above.
+
+        </p>
+
+        <p class="titulo">Verification of the Assumptions of the Model for Throughput</p>
+
+        <p>
+            The validity of the results obtained in any analysis of variance is subject to the assumptions of the model being fulfilled. These assumptions are: 
+            normality, constant variance (equal variance of treatments) and independence. That is, the answer (Y) should be distributed normally, with the same 
+            variance in each treatment and the measurements must be independent. These assumptions about Y are translated into assumptions about the term error 
+            (e) in the model <a href="#r16">[16]</a>.
+        </p>
+
+        <p>
+            The assumptions can be checked analytically (mathematically) or graphically, the latter, the most used for its relative simplicity. The graphic form 
+            is not entirely reliable, but enough for real situations to show evidence to accept or deny the assumption. For the denial a marked visual effect that 
+            supports the decision taken is required.
+        </p>
+
+        <p>
+            Some points that could leave the normal behavior of an assumption should not be considered as extreme conditions that violate the assumption in 
+            question. These cases can be interpreted as atypical measurements, since they can significantly affect the resulting analyzes.
+        </p>
+
+        <p class="titulo">Normality Assumption</p>
+
+        <p>
+            A graphic procedure to verify compliance with the assumption of waste normality consists in plotting the waste on paper or in the normal probability 
+            graph that is included in almost all statistical packages.
+        </p>
+
+        <div class="image">
+            <img src="img/V26-N1-3/img24.png" height="340px" width="auto">
+        </div>
+
+        <p>
+            This graph of type X-Y has the scales in such a way that, if the residues follow a normal distribution, when plotting them they tend to be aligned 
+            in a straight line; therefore, if they clearly do not align, it is concluded that the normality assumption is not correct <a href="#r17">[17]</a>.
+        </p>
+
+        <p>
+            It should be emphasized that the adjustment of the points to a line does not have to be perfect, since the analysis of variance resists small and 
+            moderate deviations from the normality assumption.
+        </p>
+
+        <p>
+            In figure 5, corresponding to the probability graph, it is observed that some residuals do not fit properly to the plotted line; which does not prevent 
+            compliance with the assumption of normality since these data can be considered as atypical without being sensitive in consideration.
+        </p>
+
+        <p class="titulo">Constant Variance Assumption</p>
+
+
+
 
 
 
