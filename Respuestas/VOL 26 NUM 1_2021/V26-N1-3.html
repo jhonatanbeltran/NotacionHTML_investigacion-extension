@@ -566,36 +566,59 @@
 
         <p class="titulo">Constant Variance Assumption</p>
 
-
-
-
-
-
-
-
-
-        <p class="subtitulo"> Materials </p>
-
-        <p>Banana (Musa paradisiaca) in an optimum state of ripeness was chosen, that is, bananas with a uniform yellow
-            color, in which the first black dots are just beginning to appear and in whichthe average total sugar
-            content should be around 20%.</p>
-
+        <p>
+            One way to verify the assumption of constant variance (or that the treatments have the same variance) is to plot the estimated values against the 
+            residues (Ŷij vs εij). Generally, Ŷij goes on the X axis (horizontal) and the residuals on the vertical axis. If the points on the residual plot 
+            against the estimates are distributed randomly in a horizontal band, without any clear and blunt pattern, then it is a sign that it complies with 
+            the assumption that the treatments have equal variance. On the contrary, if they are distributed with some clear and blunt pattern, such as a bugle 
+            or funnel, then it is a sign that the assumption of constant variance is not being fulfilled. In particular, the narrow part of the funnel indicates 
+            that at these levels estimated for the response variable, less variability is expected, so it should be analyzed whether these values help maximize 
+            or minimize the desired result <a href="#r16">[16]</a>.
+        </p>
 
         <div class="image">
-            <img src="img/V25-N3-2/img1.jpg" height="400px" width="auto">
+            <img src="img/V26-N1-3/img25.png" height="330px" width="auto">
         </div>
+
+        <p>
+            In figure 6, it is observed that the assumption of constant variance in which the residual values are plotted vs. estimated values is met, having 
+            as reference the criteria outlined above where it indicates a behavior without a clear pattern in the plotted data.
+        </p>
+
+        <p class="titulo">Independence Assumption</p>
+
+        <p>
+            The  assumption  of  independence  in  waste  can  be  verified  if  the  order  in  which  data  was  collected  against  the corresponding waste is 
+            plotted. In this way, if graphing on the horizontal axis the time (run order) and on the vertical axis the residuals, a clearly defined non-random 
+            trend or pattern is detected, this is evidence that there is a correlation between the errors and, therefore, the assumption of independence is not 
+            fulfilled. If the behavior of the points is random within a horizontal band, the assumption is being fulfilled <a href="#r14">[14]</a>.
+        </p>
+
+        <p>
+            In the figure 7, you can see that the residual values are randomly distributed over the horizontal strip. This indicates that the assumption of 
+            independence is fulfilled taking into account the defined criteria.
+        </p>
+
+        <div class="image">
+            <img src="img/V26-N1-3/img26.png" height="300px" width="auto">
+        </div>
+
+
 
         <!-- Conclusiones -->
         <hr>
 
         <p class="titulo"> Conclusions</p>
         <p>
-            The application of ultrasound (40 KHz / 130W / 30 ° C / 10, 20 and 30 min) as a pretreatment to the
-            convective drying of banana samples showed a significant reduction of processing time when compared to the
-            control sample; reaching the greatest reduction of time of 50% for the treatment subjected to 30 min of US.
-            The model that best predicts banana drying kinetics with and without the application of US is the
-            exponential one. According to these results the use of ultrasound would be a potential alternative to reduce
-            the drying time of bananas and vegetables in general with significant saving of energy.
+            An experimental design is a sequence of stages or activities that must be performed to successfully achieve the objectives pursued. In view of 
+            the above and for optimal development of this article, a mixed factorial design was selected, with three quantitative factors (frequency, distance 
+            and number of CPE stations), which satisfactorily responded to each of the needs in the process of investigation. However, it is important to consider 
+            that the results obtained may be subject to modifications and subsequent adjustments due to the degree of sensitivity of the instruments used to 
+            perform the measurement and the conditions existing in the network at the time of carrying out the experiment. Additionally, the analysis of variance 
+            (ANOVA) allowed the breakdown of Throughput variability into each of the contributions by factor, under a confidence level of 95.0%. In the case of 
+            Throughput, the analysis of variance identified three statistically significant effects. The only statistically significant interaction between the 
+            factors was the AC interaction, which corresponds to the interaction between the frequency and CPE factors existing in the network, which is very 
+            consistent with the mathematical expressions for the calculation of the throughput.
         </p>
 
 
@@ -606,17 +629,86 @@
 
         <p class="titulo"> References </p>
 
-        <p>
-            [1] JV. Santacatalina, JA. Cárcel, J. Fernández, A. Mulet, y JV. García, “Impact of applied ultrasonic power
-            on the lowtemperature drying of apple”,Ultrasonics Sonochemistry, vol.28, pp. 100-109,
-            2016.https://doi.org/10.1016/j.ultsonch.2015.06.027
+        <p id="r1">
+            [1] F. Juan Carlos Vesga, H. Martha Fabiola Contreras, and W. Harold Esneider Perez, “Optimization of the spectral efficiency in WLAN 
+            networks in the 2.4GHz band under the use of allocation models,” Indian J. Sci. Technol., vol. 11, no. 22, pp. 1–13, Jun. 2018.
         </p>
-        <p>[2] C. ErtekinandO. Yaldiz, “Drying of eggplant and selection of a suitable thin layer drying
-            model”,Journalof Food Engineering, vol.63,no. 3, pp. 349-359, 2004.
-            https://doi.org/10.1016/j.jfoodeng.2003.08.007</p>
-        <p>[3] L. Mayor and A.M. Sereno, “Modelling shrinkage during convective drying of food materials: a
-            review”,Journal of Food Engineering, vol.61, no. 3, pp. 373-386, 2004.
-            https://doi.org/10.1016/S0260-8774(03)00144-4</p>
+        <p id="r2">
+            [2] M. Soleymani, B. Maham, and F. Ashtiani, “Analysis of the downlink saturation throughput of an asymmetric IEEE 802.11n-based WLAN,” 
+            in 2016 IEEE International Conference on Communications (ICC), 2016, pp. 1–6.
+        </p>
+
+        <p id="r3">
+            [3] F. J. Carlos Vesga, H. Martha Fabiola Contreras, and B. Jose Antonio Vesga, “Design of empirical propagation models supported in the 
+            Log-Normal Shadowing model for the 2.4GHz and 5GHz bands under Indoor environments,” Indian J. Sci. Technol., vol. 11, no. 22, pp. 1–18, Jun. 2018.
+        </p>
+
+        <p id="r4">
+            [4] N. S. Ravindranath, I. Singh, A. Prasad, and V. S. Rao, “Performance Evaluation of IEEE 802.11ac and 802.11n using NS3,” Indian J. Sci. 
+            Technol., vol. 9, no. 26, Jul. 2016.
+        </p>
+
+        <p id="r5">
+            [5]   N. S. Ravindranath, I. Singh, A. Prasad, and V. S. Rao, Indian journal of science and technology IndJST, vol. 9, no. 26. 2016.
+        </p>
+
+        <p>
+            [6]   F. Tramarin, S. Vitturi, M. Luvisotto, and A. Zanella, “On the Use of IEEE 802.11n for Industrial Communications,” IEEE Trans. 
+            Ind. Informatics, vol. 12, no. 5, pp. 1877–1886, Oct. 2016.
+        </p>
+
+        <p>
+            [7]   J. Trachewsky  et  al.,  “A  2×2  MIMO  baseband  for  high-throughput  wireless  local-area  networking (802.11n),” in 2007 IEEE 
+            Hot Chips 19 Symposium (HCS), 2007, pp. 1–14.
+        </p>
+
+        <p>
+            [8]   J. C. Ferreira, G. Granados-Acuña, and J. A. Vesga-Barrera, “Evaluación del rendimiento de una red LAN sobre power line communications 
+            para la transmisión de VOIP,” ITECKNE,  vol.  13,  no.  1,  pp.  83–95, Apr. 2016.
+        </p>
+
+        <p>
+            [9]   S. Promwong and P. Panthap, “Experimental evaluation of complex form Friis’ transmission formula with indoor/outdoor for ultra wideband 
+            inpulse radio,” in 2008 International Conference on Computer and Communication Engineering, 2008, pp. 1037–1041.
+        </p>
+
+        <p>
+            [10] C. L. Barrett, M. Drozda, A. Marathe, and M. V. Marathe, “Analyzing interaction between network protocols, topology and traffic in wireless 
+            radio networks,” in 2003 IEEE Wireless Communications and Networking, 2003. WCNC 2003., vol. 3, pp. 1760–1766.
+        </p>
+
+        <p>
+            [11] S. K. Mohanty and R. K. Giri, “The analysis of Broadband Communication over indoor Powerline channel,” Int. Conf. Commun. Signal Process., 
+            pp. 1293–1299, 2014.
+        </p>
+
+        <p>
+            [12] W. A.  Syafei,  “Implementation  of  K-Best  method  for  MIMO  decoder  in  WLAN  802.11n,”  in 2015 2nd International Conference on 
+            Information Technology, Computer, and Electrical Engineering (ICITACEE), 2015, pp. 417–421.
+        </p>
+
+        <p>
+            [13] D. Gong and Y. Yang, “Link-Layer Multicast in Large-Scale 802.11n Wireless LANs with Smart Antennas,” IEEE Trans. Comput., vol. 65, no. 7, 
+            pp. 2118–2133, Jul. 2016.
+        </p>
+
+        <p>
+            [14] L. A. Herrera S, “Análisis de la Varianza de un Grupo de Experimentos en Parcelas Subdivididas,” Rev. la Fac. Ciencias Vet., vol. 52, no. 1, 
+            pp. 59–72, 2011.
+        </p>
+
+        <p>
+            [15] W. Moreno, Aplicaciones al diseño y análisis de experimentos. Bucaramanga, 2002.
+        </p>
+
+        <p>
+            [16] G. B. P. Del Cañizo López JF, López Martín D, Lledó García E, “Diseño de modelos experimentales en investigación quirúrgica,” Actas Urol Esp, 
+            vol. 32, no. 1, pp. 27–40, 2008.
+        </p>
+
+        <p>
+            [17] A. Diaz Cadavid, Diseno estadistico de experimentos. Editorial Universidad de Antioquia, 2009.
+        </p>
 
     </div>
 
